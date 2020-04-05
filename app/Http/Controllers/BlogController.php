@@ -13,4 +13,8 @@ class BlogController extends Controller
         $posts = Post::with('author')->orderby('id','desc')->paginate(5);
         return view("blog.index", compact('posts'));
     }
+    public function show($slug){
+        $post = Post::where('slug', $slug)->first();
+        return view('blog.show_detail', compact('post'));
+    }
 }

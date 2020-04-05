@@ -3,7 +3,7 @@
     <ul>
         <li>
             <div class="author-avatar pt-15">
-                <img src="images/product-details/user.png" alt="User">
+                <img src="<?php echo e(URL::to('images/product-details/user.png')); ?>" alt="User">
             </div>
             <div class="comment-body pl-15">
                     <span class="reply-btn pt-15 pt-xs-5"><a href="#">reply</a></span>
@@ -16,7 +16,7 @@
         </li>
         <li class="comment-children">
             <div class="author-avatar pt-15">
-                <img src="images/product-details/admin.png" alt="Admin">
+                <img src="<?php echo e(URL::to('images/product-details/admin.png')); ?>" alt="Admin">
             </div>
             <div class="comment-body pl-15">
                     <span class="reply-btn pt-15 pt-xs-5"><a href="#">reply</a></span>
@@ -29,7 +29,7 @@
         </li>
         <li>
             <div class="author-avatar pt-15">
-                <img src="images/product-details/admin.png" alt="Admin">
+                <img src="<?php echo e(URL::to('images/product-details/admin.png')); ?>" alt="Admin">
             </div>
             <div class="comment-body pl-15">
                 <span class="reply-btn pt-15 pt-xs-5"><a href="#">reply</a></span>
