@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('blog.index');
-});
+Route::get('/', ['uses' => 'BlogController@index']);
 Route::get('/blog-detail', function(){
     return view('blog.blog_detail');
 });

@@ -15,7 +15,7 @@ class PostsTableSeeder extends Seeder
         DB::table('posts')->truncate();
         for($i=0; $i<10;$i++){
             $faker = Factory::create();
-            $date = date('Y-m-d');
+            $date = date('Y-m-d H:i:s');
             $image = "images/blog-banner/".rand(1,6).".jpg";
             $post[] = [
                 'author_id' => rand(1, 2),
