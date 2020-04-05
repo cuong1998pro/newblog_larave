@@ -10,8 +10,9 @@
     <div class="li-blog-sidebar pt-25">
         <h4 class="li-blog-sidebar-title">Thể loại</h4>
         <ul class="li-blog-archive">
-            <li><a href="#">Laptops (10)</a></li>
-            <li><a href="#">Headphone (06)</a></li>
+            @foreach($categories as $category)
+        <li><a href="{{route('category', $category->slug)}}">{{$category->title}} (10)</a></li>
+            @endforeach
         </ul>
     </div>
     <div class="li-blog-sidebar">

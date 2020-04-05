@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="li-blog-banner">
-                    <a href="<?php echo e(route('blog.show', $post->slug)); ?>"><img class="img-full" src="<?php echo e($post->image); ?>" alt=""></a>
+                    <a href="<?php echo e(route('blog.show', $post->slug)); ?>"><img class="img-full" src="<?php echo e(URL::to($post->image)); ?>" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -18,8 +18,8 @@
                             <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
                         <a class="post-time" href="#"><i class="fa fa-calendar"></i> <?php echo e($post->date); ?></a>
                         </div>
-                        <p><?php echo e($post->excerpt); ?></p>
-                        <a class="read-more" href="<?php echo e(route('blog.show', $post->slug)); ?>">Read More...</a>
+                        <p><?php echo $post->excerpt_html; ?></p>
+                        <a class="read-more" href="<?php echo e(route('blog.show', $post->slug)); ?>">Đọc thêm...</a>
                     </div>
                 </div>
             </div>

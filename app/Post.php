@@ -15,4 +15,10 @@ class Post extends Model
     public function getBodyHtmlAttribute($value){
         return Markdown::convertToHtml($this->body);
     }
+    public function getExcerptHtmlAttribute($value){
+        return Markdown::convertToHtml($this->excerpt);
+    }
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
 }

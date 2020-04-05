@@ -26,7 +26,8 @@ class PostsTableSeeder extends Seeder
                 'image' =>  $image,
                 'created_at' => $date,
                 'updated_at' => $date,
-                'published_at' => $date
+                'published_at' => $date,
+                'category_id' => rand(1,3)
             ];
         }
         DB::table('posts')->insert($post);

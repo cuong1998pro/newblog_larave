@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="li-blog-banner">
-                    <a href="{{route('blog.show', $post->slug)}}"><img class="img-full" src="{{$post->image}}" alt=""></a>
+                    <a href="{{route('blog.show', $post->slug)}}"><img class="img-full" src="{{URL::to($post->image)}}" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -19,7 +19,7 @@
                             <a class="comment" href="#"><i class="fa fa-comment-o"></i> 3 comment</a>
                         <a class="post-time" href="#"><i class="fa fa-calendar"></i> {{$post->date}}</a>
                         </div>
-                        <p>{{$post->excerpt}}</p>
+                        <p>{!!$post->excerpt_html!!}</p>
                         <a class="read-more" href="{{route('blog.show', $post->slug)}}">Đọc thêm...</a>
                     </div>
                 </div>

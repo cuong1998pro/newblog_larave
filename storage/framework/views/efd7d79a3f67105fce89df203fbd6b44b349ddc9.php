@@ -10,8 +10,9 @@
     <div class="li-blog-sidebar pt-25">
         <h4 class="li-blog-sidebar-title">Thể loại</h4>
         <ul class="li-blog-archive">
-            <li><a href="#">Laptops (10)</a></li>
-            <li><a href="#">Headphone (06)</a></li>
+            <?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $category): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+        <li><a href="<?php echo e(route('category', $category->slug)); ?>"><?php echo e($category->title); ?> (10)</a></li>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </ul>
     </div>
     <div class="li-blog-sidebar">
