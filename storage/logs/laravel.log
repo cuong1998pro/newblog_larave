@@ -2150,3 +2150,1304 @@ ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console
 ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #32 {main}
 "} 
+[2020-04-05 12:02:04] local.ERROR: The use statement with non-compound name 'DB' has no effect {"exception":"[object] (ErrorException(code: 0): The use statement with non-compound name 'DB' has no effect at E:\
+ewblog_laravel\\database\\seeds\\UsersTableSeeder.php:4)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\composer\\ClassLoader.php(444): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'The use stateme...', 'E:\\\
+ewblog_lara...', 4, Array)
+#1 E:\
+ewblog_laravel\\vendor\\composer\\ClassLoader.php(444): include()
+#2 E:\
+ewblog_laravel\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('E:\\\
+ewblog_lara...')
+#3 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('UsersTableSeede...')
+#4 [internal function]: spl_autoload_call('UsersTableSeede...')
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(807): ReflectionClass->__construct('UsersTableSeede...')
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(685): Illuminate\\Container\\Container->build('UsersTableSeede...')
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->resolve('UsersTableSeede...', Array, true)
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(633): Illuminate\\Foundation\\Application->resolve('UsersTableSeede...', Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(779): Illuminate\\Container\\Container->make('UsersTableSeede...', Array)
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(80): Illuminate\\Foundation\\Application->make('UsersTableSeede...')
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(38): Illuminate\\Database\\Seeder->resolve('UsersTableSeede...')
+#12 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(15): Illuminate\\Database\\Seeder->call('UsersTableSeede...')
+#13 [internal function]: DatabaseSeeder->run()
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#23 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#30 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 {main}
+"} 
+[2020-04-05 12:05:15] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_at' in 'field list' (SQL: insert into `posts` (`author_id`, `body`, `create_at`, `excerpt`, `image`, `slug`, `title`, `update_at`) values (2, Temporibus optio non ut animi consequatur facilis quia. Quos odit vel et corporis id officiis aspernatur. Exercitationem eaque ab ut porro et quo nulla. Nulla eius asperiores dolores non. Quae voluptatem id provident rerum expedita ut expedita. Debitis aut et asperiores sunt et at qui magni. Assumenda quidem voluptatem voluptates sed blanditiis consequuntur. Quasi id eveniet suscipit modi ut ut et. Voluptate eius aut consequatur voluptatibus nihil qui quaerat., 1970-01-01 00:00:00, Quia deleniti facilis dolorum esse voluptatem. Numquam consectetur eum ipsum corrupti sit., images/blog-banner/5.jpg, ea-tempora-sed-voluptatem, Officiis repudiandae ratione eaque harum dolores sint., 1970-01-01 00:00:00)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_at' in 'field list' (SQL: insert into `posts` (`author_id`, `body`, `create_at`, `excerpt`, `image`, `slug`, `title`, `update_at`) values (2, Temporibus optio non ut animi consequatur facilis quia. Quos odit vel et corporis id officiis aspernatur. Exercitationem eaque ab ut porro et quo nulla. Nulla eius asperiores dolores non. Quae voluptatem id provident rerum expedita ut expedita. Debitis aut et asperiores sunt et at qui magni. Assumenda quidem voluptatem voluptates sed blanditiis consequuntur. Quasi id eveniet suscipit modi ut ut et. Voluptate eius aut consequatur voluptatibus nihil qui quaerat., 1970-01-01 00:00:00, Quia deleniti facilis dolorum esse voluptatem. Numquam consectetur eum ipsum corrupti sit., images/blog-banner/5.jpg, ea-tempora-sed-voluptatem, Officiis repudiandae ratione eaque harum dolores sint., 1970-01-01 00:00:00)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(30): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_at' in 'field list' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(458): PDO->prepare('insert into `po...')
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(30): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:05:40] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'facere-ipsa-et-omnis-dolor' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `excerpt`, `image`, `slug`, `title`) values (2, Voluptates quo nihil est eum. Ipsum occaecati fugiat aut quibusdam. Velit quam voluptatum iste earum sit qui. Minus quidem exercitationem quas nobis fuga laboriosam saepe. Placeat sequi at laudantium fuga at eum qui. Nobis consequatur ea in quo qui. Sequi voluptatibus eveniet saepe laborum nostrum consequatur molestias nemo. Odio deserunt ad quos. Libero dolorum illo sed deserunt autem. Et sit commodi voluptas maiores. Hic quas officia eos possimus est necessitatibus sapiente excepturi. A ipsam deleniti atque delectus. Necessitatibus omnis sit alias enim et nam vitae eius. Quo impedit delectus atque magni quos repellat dolorum itaque. Qui eum fugiat iusto voluptatem esse. Impedit in dolore quasi et dignissimos minus enim. A eius pariatur eos est qui voluptatem magni. Sapiente doloribus debitis fugiat. Aliquam et pariatur dolores non exercitationem quasi. Maxime natus tempora ut qui ipsam earum. Aut qui non voluptas ipsum consequatur., Explicabo ipsum velit eius culpa. Enim harum iste dolores sed voluptatem sit voluptatibus. Repellendus enim nemo animi et laboriosam. Culpa repellat qui similique quae. Recusandae tenetur beatae incidunt perspiciatis., images/blog-banner/3.jpg, facere-ipsa-et-omnis-dolor, Soluta id nemo ut eum sed sed et deleniti fuga eligendi totam expedita.), (2, Velit sit praesentium possimus quia fugit atque sint. Dolores quisquam repellat aut ut. In velit numquam quo non doloribus dolor. Nihil nobis quae numquam ipsa alias delectus ipsa illum. Recusandae autem corporis optio voluptatibus est dolorem nemo et. Sit blanditiis reprehenderit excepturi omnis sit. Modi aspernatur cupiditate maxime porro non iure. Nobis est voluptate est blanditiis suscipit voluptas molestiae. Harum veniam eos aliquam incidunt. Quidem et atque accusamus sit rerum assumenda sint., Velit dolorem ipsa sunt veniam ipsam officiis. Reiciendis atque omnis quibusdam quam exercitationem neque. Architecto dicta voluptatem sunt non vitae. Dolor et molestiae quisquam praesentium placeat maxime perferendis dolor., images/blog-banner/5.jpg, iste-nesciunt-sint-similique-ut-a, Blanditiis suscipit quo doloribus recusandae reiciendis numquam vel.)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'facere-ipsa-et-omnis-dolor' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `excerpt`, `image`, `slug`, `title`) values (2, Voluptates quo nihil est eum. Ipsum occaecati fugiat aut quibusdam. Velit quam voluptatum iste earum sit qui. Minus quidem exercitationem quas nobis fuga laboriosam saepe. Placeat sequi at laudantium fuga at eum qui. Nobis consequatur ea in quo qui. Sequi voluptatibus eveniet saepe laborum nostrum consequatur molestias nemo. Odio deserunt ad quos. Libero dolorum illo sed deserunt autem. Et sit commodi voluptas maiores. Hic quas officia eos possimus est necessitatibus sapiente excepturi. A ipsam deleniti atque delectus. Necessitatibus omnis sit alias enim et nam vitae eius. Quo impedit delectus atque magni quos repellat dolorum itaque. Qui eum fugiat iusto voluptatem esse. Impedit in dolore quasi et dignissimos minus enim. A eius pariatur eos est qui voluptatem magni. Sapiente doloribus debitis fugiat. Aliquam et pariatur dolores non exercitationem quasi. Maxime natus tempora ut qui ipsam earum. Aut qui non voluptas ipsum consequatur., Explicabo ipsum velit eius culpa. Enim harum iste dolores sed voluptatem sit voluptatibus. Repellendus enim nemo animi et laboriosam. Culpa repellat qui similique quae. Recusandae tenetur beatae incidunt perspiciatis., images/blog-banner/3.jpg, facere-ipsa-et-omnis-dolor, Soluta id nemo ut eum sed sed et deleniti fuga eligendi totam expedita.), (2, Velit sit praesentium possimus quia fugit atque sint. Dolores quisquam repellat aut ut. In velit numquam quo non doloribus dolor. Nihil nobis quae numquam ipsa alias delectus ipsa illum. Recusandae autem corporis optio voluptatibus est dolorem nemo et. Sit blanditiis reprehenderit excepturi omnis sit. Modi aspernatur cupiditate maxime porro non iure. Nobis est voluptate est blanditiis suscipit voluptas molestiae. Harum veniam eos aliquam incidunt. Quidem et atque accusamus sit rerum assumenda sint., Velit dolorem ipsa sunt veniam ipsam officiis. Reiciendis atque omnis quibusdam quam exercitationem neque. Architecto dicta voluptatem sunt non vitae. Dolor et molestiae quisquam praesentium placeat maxime perferendis dolor., images/blog-banner/5.jpg, iste-nesciunt-sint-similique-ut-a, Blanditiis suscipit quo doloribus recusandae reiciendis numquam vel.)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(28): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'facere-ipsa-et-omnis-dolor' for key 'posts_slug_unique' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(28): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:06:21] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'natus-voluptates-dicta-cumque-voluptatem-ut' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `excerpt`, `image`, `slug`, `title`) values (1, Delectus praesentium quibusdam suscipit repudiandae fugit omnis. Et et rerum exercitationem sit autem rerum. Hic et architecto tempore error quis molestias incidunt. Aut aut omnis aut delectus earum ut. Odio voluptas odit explicabo fugiat eaque dolorum atque quas. Quo consequatur quisquam odio distinctio accusantium qui quia. Placeat beatae veritatis architecto aliquam velit minus. Nulla officia et dicta consequatur sed. Ut quibusdam dolore eum voluptate molestiae deleniti. Maxime enim aut ipsa., Repudiandae aliquid commodi eos dolorem. Minus ipsa eveniet quia eius maiores. Molestiae saepe repellat nam et. Expedita nihil veniam et. Non voluptas reiciendis nesciunt magnam. At tempora nemo harum. Quia quibusdam perferendis animi harum. Rerum voluptatibus quia sed officia., images/blog-banner/5.jpg, natus-voluptates-dicta-cumque-voluptatem-ut, Officia velit repellat ullam iure voluptatem alias ipsum omnis.), (1, Nostrum est impedit voluptas reiciendis commodi eos. Temporibus sed odit harum qui in porro fugit est. Ut consequuntur et ipsa qui. Dolores et id aspernatur rerum consequatur nostrum. Cupiditate recusandae fugit ducimus debitis et. Nam sequi aliquid atque dicta est inventore nobis. Vero modi quia aut laboriosam a. Ducimus animi sit aut voluptates quam impedit. Expedita non exercitationem quae labore. Voluptatum enim explicabo minima sint odio delectus aut. A officiis quo provident ex sit et perferendis error. Qui facilis nisi inventore aut vero voluptatem., Unde et facilis quia quasi. Ea voluptatem unde non. Quia sed mollitia soluta aliquam. Autem eaque sequi expedita unde soluta est. Accusantium qui necessitatibus aut suscipit aliquid., images/blog-banner/1.jpg, animi-aut-non-blanditiis-a-iusto-qui, Aut assumenda iusto vel aut nostrum odio sed reiciendis.)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'natus-voluptates-dicta-cumque-voluptatem-ut' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `excerpt`, `image`, `slug`, `title`) values (1, Delectus praesentium quibusdam suscipit repudiandae fugit omnis. Et et rerum exercitationem sit autem rerum. Hic et architecto tempore error quis molestias incidunt. Aut aut omnis aut delectus earum ut. Odio voluptas odit explicabo fugiat eaque dolorum atque quas. Quo consequatur quisquam odio distinctio accusantium qui quia. Placeat beatae veritatis architecto aliquam velit minus. Nulla officia et dicta consequatur sed. Ut quibusdam dolore eum voluptate molestiae deleniti. Maxime enim aut ipsa., Repudiandae aliquid commodi eos dolorem. Minus ipsa eveniet quia eius maiores. Molestiae saepe repellat nam et. Expedita nihil veniam et. Non voluptas reiciendis nesciunt magnam. At tempora nemo harum. Quia quibusdam perferendis animi harum. Rerum voluptatibus quia sed officia., images/blog-banner/5.jpg, natus-voluptates-dicta-cumque-voluptatem-ut, Officia velit repellat ullam iure voluptatem alias ipsum omnis.), (1, Nostrum est impedit voluptas reiciendis commodi eos. Temporibus sed odit harum qui in porro fugit est. Ut consequuntur et ipsa qui. Dolores et id aspernatur rerum consequatur nostrum. Cupiditate recusandae fugit ducimus debitis et. Nam sequi aliquid atque dicta est inventore nobis. Vero modi quia aut laboriosam a. Ducimus animi sit aut voluptates quam impedit. Expedita non exercitationem quae labore. Voluptatum enim explicabo minima sint odio delectus aut. A officiis quo provident ex sit et perferendis error. Qui facilis nisi inventore aut vero voluptatem., Unde et facilis quia quasi. Ea voluptatem unde non. Quia sed mollitia soluta aliquam. Autem eaque sequi expedita unde soluta est. Accusantium qui necessitatibus aut suscipit aliquid., images/blog-banner/1.jpg, animi-aut-non-blanditiis-a-iusto-qui, Aut assumenda iusto vel aut nostrum odio sed reiciendis.)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(28): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'natus-voluptates-dicta-cumque-voluptatem-ut' for key 'posts_slug_unique' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(28): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:07:41] local.ERROR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1970-01-01 00:00:00' for column `newblog`.`posts`.`created_at` at row 1 (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (2, Unde at voluptas consequuntur facere sed amet totam. Illo ab ea labore ducimus. Ut facere suscipit commodi excepturi sed. Voluptates consequatur qui soluta quidem ab est. Eum aut non deleniti aut voluptate ea. Doloremque quisquam dolores cupiditate magnam dolorem. Quibusdam mollitia modi quia repudiandae officiis. Nesciunt rerum dolores ducimus minus et illo nesciunt. Voluptas dolor voluptates quos voluptatum. Sunt minima et eveniet possimus delectus. Nulla aspernatur voluptas iste deleniti deleniti qui., 1970-01-01 00:00:00, Nulla qui explicabo iusto quaerat ut est qui earum. Quis dolores et commodi ut aliquam a est., images/blog-banner/2.jpg, perspiciatis-voluptatum-quia-reprehenderit-voluptas-aliquid, Sit voluptatem quod eos voluptatem non numquam inventore voluptatum et magni animi veniam unde., 1970-01-01 00:00:00)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 22007): SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1970-01-01 00:00:00' for column `newblog`.`posts`.`created_at` at row 1 (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (2, Unde at voluptas consequuntur facere sed amet totam. Illo ab ea labore ducimus. Ut facere suscipit commodi excepturi sed. Voluptates consequatur qui soluta quidem ab est. Eum aut non deleniti aut voluptate ea. Doloremque quisquam dolores cupiditate magnam dolorem. Quibusdam mollitia modi quia repudiandae officiis. Nesciunt rerum dolores ducimus minus et illo nesciunt. Voluptas dolor voluptates quos voluptatum. Sunt minima et eveniet possimus delectus. Nulla aspernatur voluptas iste deleniti deleniti qui., 1970-01-01 00:00:00, Nulla qui explicabo iusto quaerat ut est qui earum. Quis dolores et commodi ut aliquam a est., images/blog-banner/2.jpg, perspiciatis-voluptatum-quia-reprehenderit-voluptas-aliquid, Sit voluptatem quod eos voluptatem non numquam inventore voluptatum et magni animi veniam unde., 1970-01-01 00:00:00)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 22007): SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1970-01-01 00:00:00' for column `newblog`.`posts`.`created_at` at row 1 at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:08:25] local.ERROR: syntax error, unexpected ')' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')' at E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php:18)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('E:\\\
+ewblog_lara...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('PostsTableSeede...')
+#2 [internal function]: spl_autoload_call('PostsTableSeede...')
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(807): ReflectionClass->__construct('PostsTableSeede...')
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(685): Illuminate\\Container\\Container->build('PostsTableSeede...')
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->resolve('PostsTableSeede...', Array, true)
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(633): Illuminate\\Foundation\\Application->resolve('PostsTableSeede...', Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(779): Illuminate\\Container\\Container->make('PostsTableSeede...', Array)
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(80): Illuminate\\Foundation\\Application->make('PostsTableSeede...')
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(38): Illuminate\\Database\\Seeder->resolve('PostsTableSeede...')
+#10 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#11 [internal function]: DatabaseSeeder->run()
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#21 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#28 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 
+[2020-04-05 12:08:40] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'numquam-necessitatibus-dolorem-tempora' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (2, Quam sit vero omnis alias laborum. Doloribus voluptatem voluptate totam qui ea. Optio occaecati consequatur dolorum ut qui rem eum quam. Vel rerum qui enim reiciendis nostrum et fuga. Praesentium voluptatibus id veritatis vel cupiditate. Modi consectetur neque quibusdam vero. Recusandae dolorum ut et nam ea et ab nihil. Quis quidem ducimus in quo. Rerum qui ullam voluptatem facere est facere velit laborum. Labore ex voluptate ut dolorem. Blanditiis odit beatae et quis et nobis. Veniam voluptatem autem possimus exercitationem molestiae sed. Consequuntur ab a aut dolorum soluta rerum recusandae. Sint eligendi consequatur totam qui fuga est quae., 2020-04-05, Ab corporis ea quo eveniet quasi. Soluta omnis sapiente maiores. Sit quasi sit sapiente unde adipisci ut soluta. Qui rerum illo enim molestias sapiente eaque quam. Sed ipsa libero autem corporis officia., images/blog-banner/4.jpg, numquam-necessitatibus-dolorem-tempora, Non et rerum autem quia voluptas magni dicta eius distinctio omnis mollitia laborum., 2020-04-05), (1, Et voluptatem ipsum atque optio neque voluptatum. Nihil provident debitis aliquid maiores et fuga atque et. Vero eligendi sed qui eos voluptatem quos consequatur. Nostrum vel repellendus asperiores rerum nulla. Et ducimus quo sit occaecati. Autem quia ut perspiciatis qui nisi. Cumque officia facere doloremque incidunt quia aut quia. Neque quia cupiditate iste odit impedit aut accusamus. Et minima voluptas similique ullam tempore. Sit quod aut ut officiis repudiandae ab ratione. Ut molestiae aperiam rerum nisi rerum rem. Non sed reprehenderit est a ipsam sed accusamus. Sunt hic pariatur quo ad. Et nostrum ut quo modi quis eligendi., 2020-04-05, Natus omnis ea quia architecto. Quia porro ex velit aliquam placeat eum sit. Sint qui ea voluptatem nam., images/blog-banner/6.jpg, hic-eum-atque-dolores-quisquam-mollitia-consequuntur-nihil, Consequuntur porro voluptates harum quia aut fugit mollitia perferendis., 2020-04-05)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'numquam-necessitatibus-dolorem-tempora' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (2, Quam sit vero omnis alias laborum. Doloribus voluptatem voluptate totam qui ea. Optio occaecati consequatur dolorum ut qui rem eum quam. Vel rerum qui enim reiciendis nostrum et fuga. Praesentium voluptatibus id veritatis vel cupiditate. Modi consectetur neque quibusdam vero. Recusandae dolorum ut et nam ea et ab nihil. Quis quidem ducimus in quo. Rerum qui ullam voluptatem facere est facere velit laborum. Labore ex voluptate ut dolorem. Blanditiis odit beatae et quis et nobis. Veniam voluptatem autem possimus exercitationem molestiae sed. Consequuntur ab a aut dolorum soluta rerum recusandae. Sint eligendi consequatur totam qui fuga est quae., 2020-04-05, Ab corporis ea quo eveniet quasi. Soluta omnis sapiente maiores. Sit quasi sit sapiente unde adipisci ut soluta. Qui rerum illo enim molestias sapiente eaque quam. Sed ipsa libero autem corporis officia., images/blog-banner/4.jpg, numquam-necessitatibus-dolorem-tempora, Non et rerum autem quia voluptas magni dicta eius distinctio omnis mollitia laborum., 2020-04-05), (1, Et voluptatem ipsum atque optio neque voluptatum. Nihil provident debitis aliquid maiores et fuga atque et. Vero eligendi sed qui eos voluptatem quos consequatur. Nostrum vel repellendus asperiores rerum nulla. Et ducimus quo sit occaecati. Autem quia ut perspiciatis qui nisi. Cumque officia facere doloremque incidunt quia aut quia. Neque quia cupiditate iste odit impedit aut accusamus. Et minima voluptas similique ullam tempore. Sit quod aut ut officiis repudiandae ab ratione. Ut molestiae aperiam rerum nisi rerum rem. Non sed reprehenderit est a ipsam sed accusamus. Sunt hic pariatur quo ad. Et nostrum ut quo modi quis eligendi., 2020-04-05, Natus omnis ea quia architecto. Quia porro ex velit aliquam placeat eum sit. Sint qui ea voluptatem nam., images/blog-banner/6.jpg, hic-eum-atque-dolores-quisquam-mollitia-consequuntur-nihil, Consequuntur porro voluptates harum quia aut fugit mollitia perferendis., 2020-04-05)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'numquam-necessitatibus-dolorem-tempora' for key 'posts_slug_unique' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:08:53] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'voluptas-aut-et-corrupti' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (1, Autem enim ipsa possimus consequatur minima. Ducimus labore aut perspiciatis rem saepe. Quis architecto qui vitae placeat. Molestiae illo atque quidem labore. Eos aperiam minus ab sunt sit dolorem tenetur. Accusamus deserunt architecto qui atque quo accusantium. Fugiat maxime esse non fugit sed eius. Inventore dolor quis hic ut iure voluptas. Esse eaque ullam aut adipisci beatae. Corporis voluptas illo ab deserunt fugit exercitationem. Et et quod aut nisi ea maiores. Totam magnam officiis ipsam aspernatur. Ea quibusdam molestiae consectetur., 2020-04-05, Nihil a aliquid omnis sit porro dolore provident. Labore aut itaque et quas et ut eaque corporis. Aut cum alias enim amet est quo., images/blog-banner/5.jpg, voluptas-aut-et-corrupti, Iusto similique voluptatibus dolores blanditiis odit expedita., 2020-04-05), (2, Ea sint rerum minima. Occaecati autem in ad nulla et. Voluptatibus exercitationem sunt porro nihil qui iure totam. Doloremque magnam corrupti id ut ratione ut quidem. Error repellat voluptatibus libero pariatur eum quis dolorum. Totam magnam voluptas odit nesciunt. Veritatis iure illum laudantium tempora. Dolorem consequatur suscipit error. Quis nihil ipsum et consectetur. Occaecati corporis dolore hic recusandae et. Consequuntur suscipit sunt magnam a omnis. Odit deserunt cupiditate voluptatem atque id explicabo non officia. Neque quasi rerum veritatis possimus dolor. Numquam facilis maxime et corporis. Asperiores odio quod quasi aliquam error., 2020-04-05, Dolorem id hic error fugiat aut quaerat. Voluptate est delectus et nobis ipsa. Vitae autem et saepe. Labore quia ullam et sunt molestias natus. Qui harum est animi nesciunt. Quis temporibus voluptas minima quidem quisquam voluptas dolor., images/blog-banner/2.jpg, esse-doloribus-debitis-ad-iure, Ipsam sed earum officia modi rerum sit ipsam dolor., 2020-04-05)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'voluptas-aut-et-corrupti' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (1, Autem enim ipsa possimus consequatur minima. Ducimus labore aut perspiciatis rem saepe. Quis architecto qui vitae placeat. Molestiae illo atque quidem labore. Eos aperiam minus ab sunt sit dolorem tenetur. Accusamus deserunt architecto qui atque quo accusantium. Fugiat maxime esse non fugit sed eius. Inventore dolor quis hic ut iure voluptas. Esse eaque ullam aut adipisci beatae. Corporis voluptas illo ab deserunt fugit exercitationem. Et et quod aut nisi ea maiores. Totam magnam officiis ipsam aspernatur. Ea quibusdam molestiae consectetur., 2020-04-05, Nihil a aliquid omnis sit porro dolore provident. Labore aut itaque et quas et ut eaque corporis. Aut cum alias enim amet est quo., images/blog-banner/5.jpg, voluptas-aut-et-corrupti, Iusto similique voluptatibus dolores blanditiis odit expedita., 2020-04-05), (2, Ea sint rerum minima. Occaecati autem in ad nulla et. Voluptatibus exercitationem sunt porro nihil qui iure totam. Doloremque magnam corrupti id ut ratione ut quidem. Error repellat voluptatibus libero pariatur eum quis dolorum. Totam magnam voluptas odit nesciunt. Veritatis iure illum laudantium tempora. Dolorem consequatur suscipit error. Quis nihil ipsum et consectetur. Occaecati corporis dolore hic recusandae et. Consequuntur suscipit sunt magnam a omnis. Odit deserunt cupiditate voluptatem atque id explicabo non officia. Neque quasi rerum veritatis possimus dolor. Numquam facilis maxime et corporis. Asperiores odio quod quasi aliquam error., 2020-04-05, Dolorem id hic error fugiat aut quaerat. Voluptate est delectus et nobis ipsa. Vitae autem et saepe. Labore quia ullam et sunt molestias natus. Qui harum est animi nesciunt. Quis temporibus voluptas minima quidem quisquam voluptas dolor., images/blog-banner/2.jpg, esse-doloribus-debitis-ad-iure, Ipsam sed earum officia modi rerum sit ipsam dolor., 2020-04-05)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'voluptas-aut-et-corrupti' for key 'posts_slug_unique' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
+[2020-04-05 12:09:32] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vel-nam-perspiciatis-tempora-quidem-molestiae-et82' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (1, Blanditiis quaerat cum quisquam enim rerum cum consequatur. Labore et non culpa non. Delectus et debitis qui ad qui. Sit explicabo delectus nam beatae voluptatem est. Natus in ut veritatis soluta nemo. Porro aperiam praesentium sint dolorum voluptate. Eos id recusandae perferendis voluptate a commodi quia. Non excepturi deleniti quam blanditiis unde tempore. Illum tenetur perspiciatis recusandae consequatur et vel ut ipsa. Quis ut qui ut odit consequuntur enim. Dolor iure error vel quas perferendis sit. Neque eveniet voluptas quo dolorem et quo. Mollitia consectetur natus dolor vero rerum nulla est. Adipisci corrupti quod omnis. Aspernatur ut deserunt esse ut optio id impedit. Ut quia qui eum voluptas consequuntur debitis praesentium incidunt. Aperiam eligendi omnis blanditiis natus fugit quia. Perferendis molestiae provident sed provident earum rerum. Nam sed et dolore accusamus., 2020-04-05, Suscipit perferendis quaerat libero laborum. Quis quas rem ea iusto dignissimos. Autem voluptatem et qui deleniti et ut a. Molestiae tenetur aut consequatur sed ipsa voluptate nihil provident. Et corrupti est sed laboriosam officia quasi eos., images/blog-banner/4.jpg, vel-nam-perspiciatis-tempora-quidem-molestiae-et82, Et et expedita aut soluta excepturi voluptates quis id aut rerum laborum laborum., 2020-04-05), (2, Aspernatur eligendi dolorem magni officiis. Error quia reiciendis recusandae blanditiis dolores ut aut. Est velit rerum veniam vitae occaecati. Dolor ut voluptate cupiditate. Similique et veritatis et ut quis enim ut. Tenetur laudantium sequi iste. Blanditiis ut et exercitationem adipisci necessitatibus quo dolorem. Sapiente non nam at eum dolores. Sed magni officia laudantium rerum dolores aut. Ut voluptas animi et deserunt vero. Necessitatibus consequatur ut voluptas occaecati maiores minus occaecati. Ipsum ullam cumque quia et. Dignissimos minus deserunt autem reiciendis. Earum error voluptatem sapiente eveniet laboriosam. Ea voluptas pariatur nulla velit sed atque rerum. Asperiores consequatur temporibus nostrum amet voluptates. Provident quo repellendus ratione autem placeat. Laborum delectus fugit distinctio ut tempora., 2020-04-05, Itaque at numquam dolores. Optio non repellat minus quod voluptas voluptas similique ut. Architecto laudantium placeat commodi. Ducimus et non vero quaerat dicta ducimus., images/blog-banner/5.jpg, quis-inventore-doloribus-a-maiores-at-iusto-quo52, Ab magni rem cumque ipsum voluptatum., 2020-04-05)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vel-nam-perspiciatis-tempora-quidem-molestiae-et82' for key 'posts_slug_unique' (SQL: insert into `posts` (`author_id`, `body`, `created_at`, `excerpt`, `image`, `slug`, `title`, `updated_at`) values (1, Blanditiis quaerat cum quisquam enim rerum cum consequatur. Labore et non culpa non. Delectus et debitis qui ad qui. Sit explicabo delectus nam beatae voluptatem est. Natus in ut veritatis soluta nemo. Porro aperiam praesentium sint dolorum voluptate. Eos id recusandae perferendis voluptate a commodi quia. Non excepturi deleniti quam blanditiis unde tempore. Illum tenetur perspiciatis recusandae consequatur et vel ut ipsa. Quis ut qui ut odit consequuntur enim. Dolor iure error vel quas perferendis sit. Neque eveniet voluptas quo dolorem et quo. Mollitia consectetur natus dolor vero rerum nulla est. Adipisci corrupti quod omnis. Aspernatur ut deserunt esse ut optio id impedit. Ut quia qui eum voluptas consequuntur debitis praesentium incidunt. Aperiam eligendi omnis blanditiis natus fugit quia. Perferendis molestiae provident sed provident earum rerum. Nam sed et dolore accusamus., 2020-04-05, Suscipit perferendis quaerat libero laborum. Quis quas rem ea iusto dignissimos. Autem voluptatem et qui deleniti et ut a. Molestiae tenetur aut consequatur sed ipsa voluptate nihil provident. Et corrupti est sed laboriosam officia quasi eos., images/blog-banner/4.jpg, vel-nam-perspiciatis-tempora-quidem-molestiae-et82, Et et expedita aut soluta excepturi voluptates quis id aut rerum laborum laborum., 2020-04-05), (2, Aspernatur eligendi dolorem magni officiis. Error quia reiciendis recusandae blanditiis dolores ut aut. Est velit rerum veniam vitae occaecati. Dolor ut voluptate cupiditate. Similique et veritatis et ut quis enim ut. Tenetur laudantium sequi iste. Blanditiis ut et exercitationem adipisci necessitatibus quo dolorem. Sapiente non nam at eum dolores. Sed magni officia laudantium rerum dolores aut. Ut voluptas animi et deserunt vero. Necessitatibus consequatur ut voluptas occaecati maiores minus occaecati. Ipsum ullam cumque quia et. Dignissimos minus deserunt autem reiciendis. Earum error voluptatem sapiente eveniet laboriosam. Ea voluptas pariatur nulla velit sed atque rerum. Asperiores consequatur temporibus nostrum amet voluptates. Provident quo repellendus ratione autem placeat. Laborum delectus fugit distinctio ut tempora., 2020-04-05, Itaque at numquam dolores. Optio non repellat minus quod voluptas voluptas similique ut. Architecto laudantium placeat commodi. Ducimus et non vero quaerat dicta ducimus., images/blog-banner/5.jpg, quis-inventore-doloribus-a-maiores-at-iusto-quo52, Ab magni rem cumque ipsum voluptatum., 2020-04-05)) at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:670)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#4 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: PostsTableSeeder->run()
+#6 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#13 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#14 [internal function]: DatabaseSeeder->run()
+#15 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#24 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#26 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#31 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vel-nam-perspiciatis-tempora-quidem-molestiae-et82' for key 'posts_slug_unique' at E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:464)
+[stacktrace]
+#0 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(464): PDOStatement->execute()
+#1 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(663): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('insert into `po...', Array)
+#2 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(630): Illuminate\\Database\\Connection->runQueryCallback('insert into `po...', Array, Object(Closure))
+#3 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(465): Illuminate\\Database\\Connection->run('insert into `po...', Array, Object(Closure))
+#4 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(417): Illuminate\\Database\\Connection->statement('insert into `po...', Array)
+#5 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2680): Illuminate\\Database\\Connection->insert('insert into `po...', Array)
+#6 E:\
+ewblog_laravel\\database\\seeds\\PostsTableSeeder.php(31): Illuminate\\Database\\Query\\Builder->insert(Array)
+#7 [internal function]: PostsTableSeeder->run()
+#8 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#9 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#14 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(48): Illuminate\\Database\\Seeder->__invoke()
+#15 E:\
+ewblog_laravel\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('PostsTableSeede...')
+#16 [internal function]: DatabaseSeeder->run()
+#17 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#18 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(134): Illuminate\\Container\\Container->call(Array)
+#23 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(65): Illuminate\\Database\\Seeder->__invoke()
+#24 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#25 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(66): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#26 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#27 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#28 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#29 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#30 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#31 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#32 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#33 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#35 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(912): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(264): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 E:\
+ewblog_laravel\\vendor\\symfony\\console\\Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 E:\
+ewblog_laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 E:\
+ewblog_laravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#41 {main}
+"} 
