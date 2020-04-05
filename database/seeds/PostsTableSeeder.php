@@ -13,7 +13,7 @@ class PostsTableSeeder extends Seeder
     public function run()
     {
         DB::table('posts')->truncate();
-        for($i=0; $i<10;$i++){
+        for($i=0; $i<10; $i++){
             $faker = Factory::create();
             $date = date('Y-m-d H:i:s');
             $image = "images/blog-banner/".rand(1,6).".jpg";
@@ -26,11 +26,9 @@ class PostsTableSeeder extends Seeder
                 'image' =>  $image,
                 'created_at' => $date,
                 'updated_at' => $date,
-
+                'published_at' => $date
             ];
-
         }
         DB::table('posts')->insert($post);
-
     }
 }
